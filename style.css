@@ -17,9 +17,9 @@ body {
 
 
 #eu {
-    background-image: url(/pictures/munte.jpeg);
+    background-image: url(pictures/munte.jpeg);
     background-color: #cccccc;
-    height: 500px;
+    height: 800px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,6 +32,13 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+
+.dark-mode {
+    background-color: black;
     color: white;
 }
 /* colors 
