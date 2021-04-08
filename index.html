@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- FONTS -->
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet"> 
+
+
+    <link rel="icon" type="image/png" href="pictures/newral.svg" />
+    <script src="https://kit.fontawesome.com/edfca279aa.js" crossorigin="anonymous"></script>
+
+    <title>Felicia Boghiu</title>
+  
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    
+  <section class="section">
+    <div class="container">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+
+            <div class="navbar-brand">
+              <a class="navbar-item" href="index.html" style="font-size: 35px; font-stretch: condensed;">
+                <img src="pictures/new.png" width="30" height="300" alt="logo" />
+               FB
+                </a>
+          
+              <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
+            </div>
+          
+            <div id="navbarBasicExample" class="navbar-menu">
+              <div class="navbar-start">
+                <a class="navbar-item" style="font-family: 'Cabin Sketch', cursive;">
+                  Resume
+                </a>
+          
+                <!-- <a class="navbar-item">
+                  Documentation
+                </a> -->
+          
+                <div class="navbar-item has-dropdown is-hoverable">
+                  <a class="navbar-link" style="font-family: 'Cabin Sketch', cursive;">
+                    Projects
+                  </a>
+          
+                  <div class="navbar-dropdown">
+                    <a class="navbar-item" style="font-family: 'Cabin Sketch', cursive;">
+                      Micheal Pope Productions
+                    </a>
+                    <a class="navbar-item" style="font-family: 'Cabin Sketch', cursive;">
+                      Life is a Sacred Journey
+                    </a>
+                    
+                    <hr class="navbar-divider">
+                    <a class="navbar-item" style="font-family: 'Cabin Sketch', cursive;">
+                      Open Up MVP
+                    </a>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="navbar-end">
+                <div class="navbar-item">
+                  <div class="buttons">
+                    <a class="button is-primary">
+                      <strong>Contact</strong>
+                    </a>
+                    
+                    <a class="button is-light">
+                      Blog
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+
+<div id="eu" class="container">
+  <div id="eu1">
+    <h1 style="font-size:50px">I am Felicia Boghiu</h1>
+    <h3>And I'm a Web Content Manager</h3>
+    <button>Hire me</button>
+  </div>
+</div>
+
+          
+      <!-- <h1 align="center" class="title"> 
+        Hello, I am Felicia!
+      </h1>
+      <img src="pictures/munte.jpeg" alt="Lake Louise" /> -->
+
+
+      
+
+      <!-- <iframe class="has-ratio" width="640" height="360" src="https://www.youtube-nocookie.com/embed/c6A6BlVkaXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+      
+    </div>
+    
+  </section>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>©</strong> 2021 <a href="https://jgthms.com">Felicia Boghiu</a>
+       ALL RIGHTS RESERVED
+      </p>
+    </div>
+  </footer>
+
+      <script>
+          document.addEventListener('DOMContentLoaded', () => {
+
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+
+      // Add a click event on each of them
+      $navbarBurgers.forEach( el => {
+      el.addEventListener('click', () => {
+
+        // Get the target from the "data-target" attribute
+        const target = el.dataset.target;
+        const $target = document.getElementById(target);
+
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+
+      });
+      });
+      }
+
+      });
+      </script>
+
+  </body>
+</html>
