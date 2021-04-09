@@ -2,7 +2,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Cabin Sketch', cursive;
+   /* font-family: 'Open Sans', sans-serif; */
+   font-family: 'Comfortaa', cursive;
+  
+
 }
 
 html {
