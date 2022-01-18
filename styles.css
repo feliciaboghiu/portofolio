@@ -270,3 +270,9 @@ body {
         font-size: 14px;
     }
   }
+
+#eu {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
